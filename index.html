@@ -9,6 +9,39 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <!-- Navbar -->
+  <header class="bg-[#1a0b2ed4] shadow">
+    <nav class="flex justify-between items-center max-w-6xl mx-auto px-6 py-4">
+      
+      <!-- Logo -->
+      <h2 class="text-2xl font-bold text-white">Tech<span class="text-[#FA3C9A]">Wave</span></h2>
+
+      <!-- Middle Menu -->
+      <ul class="hidden md:flex gap-8 text-white font-medium">
+        <li><a href="#" class="hover:text-purple-600">About</a></li>
+        <li><a href="#" class="hover:text-purple-600">Episodes</a></li>
+        <li><a href="#" class="hover:text-purple-600">Host</a></li>
+      </ul>
+     <!-- Right Button -->
+        <button class="hidden md:block bg-linear-to-r from-pink-700 to-yellow-500 text-white px-6 py-3 rounded-full items-center gap-2 hover:opacity-90 transition"> Subscribe </button>
+
+
+      <!-- Hamburger Icon for Mobile -->
+      <button class="md:hidden text-2xl text-white">☰</button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="hidden px-6 pb-4 md:hidden" id="mobile-menu">
+      <ul class="flex flex-col gap-4 text-gray-700 font-medium">
+        <li><a href="#" class="hover:text-purple-600">About</a></li>
+        <li><a href="#" class="hover:text-purple-600">Episodes</a></li>
+        <li><a href="#" class="hover:text-purple-600">Host</a></li>
+      </ul>
+        <button class="mt-4 bg-linear-to-r from-[#190B2D] to-purple-700 text-white px-5 py-2 rounded hover:opacity-90 transition"> Subscribe </button>
+    </div>
+  </header>
+
+  <!-- Hero section  -->
+   
 </body>
 </html>
