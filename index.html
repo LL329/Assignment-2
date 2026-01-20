@@ -12,32 +12,30 @@
 </head>
 
 
-
-</head>
 <body class="font-doto bg-[#191243]">
     <!-- Navbar -->
-  <header class="bg-[#1a0b2ed4] shadow-xl">
-    <nav class="flex justify-between items-center max-w-6xl mx-auto px-6 py-4">
+  <!-- <header class="bg-[#1a0b2ed4] shadow-xl">
+    <nav class="flex justify-between items-center max-w-6xl mx-auto px-6 py-4"> -->
       
       <!-- Logo -->
-      <h2 class="text-2xl font-bold text-white">Tech<span class="bg-linear-to-r from-pink-500 via-orange-400 to-purple-600 bg-clip-text text-transparent font-extrabold">Wave</span>
-    </h2>
+      <!-- <h2 class="text-2xl font-bold text-white">Tech<span class="bg-linear-to-r from-pink-500 via-orange-400 to-purple-600 bg-clip-text text-transparent font-extrabold">Wave</span>
+    </h2> -->
       <!-- Middle Menu -->
-      <ul class="hidden md:flex gap-8 text-white font-medium">
+      <!-- <ul class="hidden md:flex gap-8 text-white font-medium">
         <li><a href="#" class="hover:text-purple-600">About</a></li>
         <li><a href="#" class="hover:text-purple-600">Episodes</a></li>
         <li><a href="#" class="hover:text-purple-600">Host</a></li>
-      </ul>
+      </ul> -->
      <!-- Right Button -->
-        <button class="hidden md:block bg-linear-to-r from-pink-700 to-yellow-500 text-white px-6 py-3 rounded-full items-center gap-3 hover:opacity-90 transition"> Subscribe <i class="fa-solid fa-arrow-right-long"></i> </button>
+        <!-- <button class="hidden md:block bg-linear-to-r from-pink-700 to-yellow-500 text-white px-6 py-3 rounded-full items-center gap-3 hover:opacity-90 transition"> Subscribe <i class="fa-solid fa-arrow-right-long"></i> </button> -->
 
 
       <!-- Hamburger Icon for Mobile -->
-      <button class="md:hidden text-2xl text-white">☰</button>
-    </nav>
+      <!-- <button class="md:hidden text-2xl text-white">☰</button>
+    </nav> -->
 
     <!-- Mobile Menu -->
-    <div class="hidden px-6 pb-4 md:hidden" id="mobile-menu">
+    <!-- <div class="hidden px-6 pb-4 md:hidden" id="mobile-menu">
       <ul class="flex flex-col gap-4 text-gray-700 font-medium">
         <li><a href="#" class="hover:text-purple-600">About</a></li>
         <li><a href="#" class="hover:text-purple-600">Episodes</a></li>
@@ -45,7 +43,53 @@
       </ul>
         <button class="mt-4 bg-linear-to-r from-[#190B2D] to-purple-700 text-white px-5 py-2 rounded hover:opacity-90 transition"> Subscribe </button>
     </div>
-  </header> <hr class="border-[#726a7e86]">
+  </header> <hr class="border-[#726a7e86]"> -->
+
+
+
+
+  <!-- custom animaiton  -->
+  <!-- Navbar -->
+  <header class="bg-[#1a0b2ed4] shadow-xl animate-fadeIn">
+  <nav class="flex justify-between items-center max-w-6xl mx-auto px-6 py-4">
+      
+    <!-- Logo -->
+    <h2 class="text-2xl font-bold text-white animate-bounce">
+      Tech
+      <span class="bg-gradient-to-r from-pink-500 via-orange-400 to-purple-600 bg-clip-text text-transparent font-extrabold">
+        Wave
+      </span>
+    </h2>
+
+    <!-- Middle Menu -->
+    <ul class="hidden md:flex gap-8 text-white font-medium animate-fadeInSlow">
+      <li><a href="#" class="hover:text-purple-600 transition duration-300">About</a></li>
+      <li><a href="#" class="hover:text-purple-600 transition duration-300">Episodes</a></li>
+      <li><a href="#" class="hover:text-purple-600 transition duration-300">Host</a></li>
+    </ul>
+
+    <!-- Right Button -->
+    <button class="hidden md:block bg-gradient-to-r from-pink-700 to-yellow-500 text-white px-6 py-3 rounded-full items-center gap-3 hover:opacity-90 transition animate-pulse">
+      Subscribe <i class="fa-solid fa-arrow-right-long"></i>
+    </button>
+
+    <!-- Hamburger Icon for Mobile -->
+    <button class="md:hidden text-2xl text-white animate-spin">☰</button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="hidden px-6 pb-4 md:hidden" id="mobile-menu">
+    <ul class="flex flex-col gap-4 text-gray-700 font-medium">
+      <li><a href="#" class="hover:text-purple-600 transition duration-300">About</a></li>
+      <li><a href="#" class="hover:text-purple-600 transition duration-300">Episodes</a></li>
+      <li><a href="#" class="hover:text-purple-600 transition duration-300">Host</a></li>
+    </ul>
+    <button class="mt-4 bg-gradient-to-r from-[#190B2D] to-purple-700 text-white px-5 py-2 rounded hover:opacity-90 transition">Subscribe</button>
+  </div>
+  </header>
+
+  <hr class="border-[#726a7e86]">
+
 
 
 
@@ -126,7 +170,7 @@
     <!-- Paragraphs -->
      <!-- Small device : 5 lines (block), Large device: 1 line (inline) -->
     <div class="space-y-4">
-      <p class="text-xs leading-relaxed text-center">
+      <p class="text-xs leading-relaxed text-center text-gray-400">
   <span class="block lg:block">
     TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
   </span>
@@ -141,7 +185,7 @@
 
 
 
-      <p class="max-w-xl mx-auto text-xs leading-relaxed mb-5">
+      <p class="max-w-xl mx-auto text-xs leading-relaxed mb-5 text-gray-400">
   <!-- Small device: 2 lines (block), Large device: 1 line (inline) -->
     <span class="block lg:inline">Join thousands of young professionals and tech</span>
      <span class="block lg:inline">enthusiasts who start their day with TechWave.</span>
@@ -440,26 +484,26 @@
         <div class="grid grid-cols-2 md:flex md:flex-wrap md:justify-center gap-6 text-xl mb-6">
           <!-- Spotify -->
           <div class="flex items-center justify-center gap-2">
-            <img src="./assets/spotify.png" alt="Spotify Icon" class="w-7 h-7">
-            <span>Spotify</span>
+            <img src="./assets/spotify.png" alt="Spotify Icon" class="w-5 h-5">
+            <span class="text-gray-300 text-sm">Spotify</span>
           </div>
 
           <!-- Apple Podcasts -->
           <div class="flex items-center justify-center gap-2">
-            <img src="./assets/apple-podcast.png" alt="Apple Podcasts Icon" class="w-7 h-7">
-            <span>Apple Podcasts</span>
+            <img src="./assets/apple-podcast.png" alt="Apple Podcasts Icon" class="w-5 h-5">
+            <span class="text-gray-300 text-sm">Apple Podcasts</span>
           </div>
 
           <!-- YouTube -->
           <div class="flex items-center justify-center gap-2">
-            <img src="./assets/youtube.png" alt="YouTube Icon" class="w-7 h-7">
-            <span>YouTube</span>
+            <img src="./assets/youtube.png" alt="YouTube Icon" class="w-5 h-5">
+            <span class="text-gray-300 text-xs">YouTube</span>
           </div>
 
           <!-- Twitter -->
           <div class="flex items-center justify-center gap-2">
-            <img src="./assets/twitter.png" alt="Twitter Icon" class="w-7 h-7">
-            <span>Twitter</span>
+            <img src="./assets/twitter.png" alt="Twitter Icon" class="w-5 h-5">
+            <span class="text-gray-300 text-sm">Twitter</span>
           </div>
         </div>
 
